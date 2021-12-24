@@ -7,7 +7,6 @@ def checkoutInstance():
     co = CheckOut()
     return co
 
-
 def test_check_addItemPrice(checkoutInstance):
     checkoutInstance.addItemPrice("a",1)
 
